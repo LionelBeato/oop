@@ -1,6 +1,6 @@
 package oop;
 
-public class OtherConcrete extends AbstractExample {
+public class OtherConcrete extends AbstractExample implements MyInterface, MyOtherInterface {
 
 	@Override
 	public void myMethod() {
@@ -11,6 +11,18 @@ public class OtherConcrete extends AbstractExample {
 
 	@Override
 	public void addEggs() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doSomething() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doOtherThing() {
 		// TODO Auto-generated method stub
 		
 	}
